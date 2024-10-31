@@ -1,0 +1,38 @@
+.folded #adminmenu .wp-submenu {
+	left: 36px;
+}
+
+#adminmenumain .screen-reader-shortcut {
+	display:none;
+}
+
+#adminmenu .wp-has-submenu:hover .wp-submenu {
+	top:-1px;
+}
+
+#adminmenu li > ul {
+	margin-left:0;
+}
+
+#adminmenuwrap {
+	position:fixed;
+	top:32px;
+	left:0;
+}
+
+#adminmenuback {
+	left:0;
+}
+
+#adminmenuwrapwrap .wp-submenu {
+	position:fixed;
+	bottom:0;
+}
+
+#collapse-menu .collapse-button-label {
+	display: none;
+}
+
+#adminmenu a {
+    line-height: inherit;
+}
